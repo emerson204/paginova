@@ -58,7 +58,7 @@ export default function Nosotros() {
 
             <div className="flex gap-3 md:gap-4 items-center">
               <Link
-                href={`https://wa.me/51930253424?text=${encodeURIComponent(
+                href={`https://wa.me/51907993141?text=${encodeURIComponent(
                   mensaje
                 )}`}
                 className=" bg-[#171717] dark:bg-white w-fit text-white dark:text-black pb-[0.5625rem] pt-[0.6650rem] px-5 rounded-full  cursor-pointer  text-sm  flex items-center gap-2 "

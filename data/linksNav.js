@@ -6,17 +6,17 @@ export const linksNav = [
   },
   {
     id: 2,
+    titulo: "Nosotros",
+    url: "#nosotros",
+  },
+  {
+    id: 3,
     titulo: "Servicios",
     url: "#servicios",
   },
   {
-    id: 3,
+    id: 4,
     titulo: "Proyectos",
     url: "#proyectos",
-  },
-  {
-    id: 4,
-    titulo: "Nosotros",
-    url: "#nosotros",
   },
 ];

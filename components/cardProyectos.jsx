@@ -18,7 +18,8 @@ export default function CardProyectos({
         alt="proyecto"
         width="380"
         height="380"
-        className={`rounded-lg mx-auto w-full ${className}`}
+        className={`rounded-lg mx-auto w-full ${className} `}
+        loading="lazy"
       />
       <div className="mt-3">
         <h2 className="text-lg lg:text-xl poppins-medium mb-2  ">{titulo}</h2>

@@ -27,16 +27,16 @@ export default function Footer() {
             Contacto
           </h3>
           <Link
-            href={`https://wa.me/51907559345?text=${encodeURIComponent(
+            href={`https://wa.me/51907993141?text=${encodeURIComponent(
               mensaje
             )}`}
             className="flex items-center gap-4 mb-5 md:mb-7 text-[0.9375rem] md:text-base"
           >
             <Phone />
-            <p>+51 907 559 345</p>
+            <p>+51 907 993 141</p>
           </Link>
           <Link
-            href="mailto:devtuwebpe@gmail.com"
+            href="mailto:paginovape@gmail.com"
             className="flex items-center gap-4 text-[0.9375rem] md:text-base "
           >
             <Mail />
@@ -59,7 +59,7 @@ export default function Footer() {
         </div>
       </div>
       <p className="text-center text-sm pb-7">
-        DevtuWeb © 2025 Todos los derechos reservados
+        Paginova © 2025 Todos los derechos reservados
       </p>
     </footer>
   );

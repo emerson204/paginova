@@ -15,17 +15,18 @@ export default function Proyectos() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
           <CardProyectos
-            imagen="https://res.cloudinary.com/dgzphcnpw/image/upload/f_auto,q_auto/v1735347641/nitronix_kkqy1r.png"
+            imagen="https://res.cloudinary.com/dgzphcnpw/image/upload/v1743807498/nitronix_htvyg4.png"
             pagina="https://nitronix.vercel.app/"
             titulo="Proyecto Nitronix"
             descripcion="Nitronix es una página que ofrece servicios de mantenimiento y cuidado automotriz, para mantener tu vehículo al máximo"
           />
+
           <CardProyectos
-            imagen="https://res.cloudinary.com/dgzphcnpw/image/upload/f_auto,q_auto/v1735347653/portfolio-personal_ybrimz.png"
-            pagina="https://miportfolio-eme.netlify.app/"
-            className="border dark:border-none"
-            titulo="Proyecto Portafolio Personal"
-            descripcion="Portafolio web personalizado para un cliente, destacando sus proyectos y habilidades con un diseño limpio y profesional."
+            imagen="https://res.cloudinary.com/dgzphcnpw/image/upload/v1743807498/bhmusic_yzkwis.png"
+            pagina="https://bhmusicoficial.com/"
+            className=""
+            titulo="Proyecto B&H Music"
+            descripcion="B&H Music es una página que ofrece servicios de producción y distribución musical, para impulsar el talento de nuevos artistas."
           />
         </div>
       </div>

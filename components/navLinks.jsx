@@ -9,7 +9,7 @@ export default function NavLinks({ onClickLink }) {
         <li
           key={item.id}
           onClick={onClickLink}
-          className="after:content-[''] after:absolute relative after:w-[6rem] md:after:w-0 after:h-[0.125rem] after:bg-black after:left-0 after:-bottom-1 after:rounded-full md:hover:after:w-full after:transition-all ease-in-out duration-300 dark:text-black tracking-wide uppercase text-sm"
+          className="after:content-[''] after:absolute relative after:w-[6rem] md:after:w-0 after:h-[0.125rem] after:bg-black after:left-0 after:-bottom-1 after:rounded-full md:hover:after:w-full after:transition-all ease-in-out duration-300 dark:text-white tracking-wide uppercase text-sm"
         >
           <Link href={item.url}>{item.titulo}</Link>
         </li>

@@ -38,8 +38,8 @@ export default function Hero() {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          Creamos páginas web impactantes que impulsan tu negocio, mejoran tu
-          presencia online y atraen más clientes.
+          En Paginova creamos páginas web impactantes que impulsan tu negocio,
+          mejoran tu presencia online y atraen más clientes.
         </motion.p>
 
         <motion.div
@@ -52,7 +52,7 @@ export default function Hero() {
           }}
         >
           <Link
-            href={`https://wa.me/51907559345?text=${encodeURIComponent(
+            href={`https://wa.me/51907993141?text=${encodeURIComponent(
               mensaje
             )}`}
             className="bg-white w-fit text-black pb-[0.5625rem] pt-[0.6650rem] px-5 rounded-full  cursor-pointer  text-sm  flex items-center gap-2 "

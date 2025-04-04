@@ -44,7 +44,7 @@ export default function NavMobile() {
   return (
     <Sheet open={open} onOpenChange={handleOpenChange}>
       <SheetTrigger asChild>
-        <AlignJustify size={28} className="dark:text-black" />
+        <AlignJustify size={28} className="dark:text-white" />
       </SheetTrigger>
       <SheetContent side="left">
         <SheetHeader>
